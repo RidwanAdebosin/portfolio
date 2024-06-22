@@ -1,14 +1,34 @@
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
 
-export const links = [
+interface LinksInterface {
+    id: string;
+    href: string;
+    text: string;
+}
+
+interface SkillsInterface {
+    id: string;
+    title: string;
+    icon: JSX.Element;
+    text: string;
+}
+
+// interface ProjectsInterface {
+//     id: string;
+//     title: string;
+//     icon: JSX.Element;
+//     text: string;
+// }
+
+export const links: LinksInterface[] = [
   { id: nanoid(), href: '#home', text: 'home' },
   { id: nanoid(), href: '#about', text: 'about' },
   { id: nanoid(), href: '#skills', text: 'skills' },
   { id: nanoid(), href: '#projects', text: 'projects' },
 ];
 
-export const skills = [
+export const skills: SkillsInterface[] = [
   {
     id: nanoid(),
     title: 'HTML&CSS',
