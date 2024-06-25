@@ -1,4 +1,4 @@
-import { skills } from "../assets/data";
+
 
 const SkillsCard = ({icon, title, text}) => {
     return <article>
