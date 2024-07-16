@@ -22,7 +22,7 @@ const Hero = () => {
                         <a href='https://ng.linkedin.com/in/ridwan-adebosin'>
                             <FaLinkedin className='h-8 w-8 text-slate-500 hover:text-black duration-300'/>
                         </a>
-                        <a href='https://www.twitter.com/ridwanadebosin'>
+                        <a href='https://x.com/Ridwan_Adebosin'>
                             <FaTwitterSquare className='h-8 w-8 text-slate-500 hover:text-black duration-300'/>
                         </a>
                      </div>

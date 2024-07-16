@@ -52,26 +52,18 @@ export const skills: SkillsInterface[] = [
 export const projects = [
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'first project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
+    img: 'https://app.gemoo.com/share/image-annotation/671837017067757568?codeId=v6aXpjj4LNgq8&origin=imageurlgenerator&card=671837014446317568',
+    url: 'https://care-finder-nu.vercel.app/',
+    github: 'https://github.com/RidwanAdebosin/CareFinder',
+    title: 'CareFinder',
+    text: ' Carefinder is a simple tool that aims to help users find, export, and share hospitals within the region.',
   },
   {
     id: nanoid(),
-    img: 'https://images.pexels.com/photos/2148222/pexels-photo-2148222.jpeg?auto=compress&cs=tinysrgb&w=800',
+    img: 'https://app.gemoo.com/share/image-annotation/671839831626035200?codeId=v6aXpjj4LNgq8',
     url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'second project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
-  },
-  {
-    id: nanoid(),
-    img: 'https://images.pexels.com/photos/12883026/pexels-photo-12883026.jpeg?auto=compress&cs=tinysrgb&w=800',
-    url: 'https://react-projects.netlify.app/',
-    github: 'https://github.com/john-smilga',
-    title: 'third project',
-    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.',
-  },
+    github: 'https://github.com/RidwanAdebosin/mygithubrepo',
+    title: 'My GitHub Repo',
+    text: 'This is a react project where i implemented an API fetch of my GitHub portfolio.',
+  }
 ];
